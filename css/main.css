@@ -1,0 +1,305 @@
+/*Top Section, including navigation and heading*/
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.heart {
+	position: relative;
+	top: 50px;
+	left:90px;
+	color:black;
+	font-size: 40px;
+	padding: 1px 1px 1px 1px;
+}
+.nav {
+	background-color:#A3CFD8;
+	height: 400px;
+}
+.nav h6{
+	position: relative;
+	font-size: 30px;
+	margin:1px 1px 1px 1px;
+	width: 500px;
+	left: 150px;
+	top: 5px;
+}
+.nav ul {
+	position: relative;
+	float: right;
+	right: 200px;
+	bottom: 40px;
+}
+.nav ul li{
+	display: inline-block;
+	font-size: 20px;
+	padding-left: 20px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+.nav ul li a:hover{
+	background-color: black;
+	color: #A3CFD8;
+}
+.nav h1{
+	position: relative;
+	top: 100px;
+	width: 33%;
+	text-align: center;
+	left: 300px;
+	color: #ffffff;
+	font-size: 50px;
+}
+.nav img{
+	position: relative;
+	float: right;
+	right: 300px;
+	bottom: 70px;
+}
+
+/*First Section Break of Page*/
+.middle1{	
+	text-align: center;
+}
+.browser {
+	display: inline-block;
+	text-align: center;
+	margin: 50px;
+
+}
+.bulb {
+	display: inline-block;
+	text-align: center;
+	margin: 50px;
+}
+.monitor2 {
+	display: inline-block;
+	text-align: center;
+	margin: 50px;
+}
+/*Second Section Brake of Page*/
+.middle2 {
+	background-color: #99D2A5;
+	height: 600px;
+}
+.header {
+	text-align: center;
+}
+.header h1{
+	font-size: 30px;
+	color: white;
+	padding-top: 50px;
+}
+.header p{
+	font-size: 20px;
+	color: white;
+}
+/*MidSection Navigation Bar*/
+
+.midNav ul{
+	padding-top: 50px;
+	text-align: center;
+}
+.midNav ul li{
+	display: inline-block;
+	list-style: none;
+	
+}
+.midNav ul li a {
+	text-decoration: none;
+	color: white;
+	border: 2px solid #99D2A5;
+	text-align: center;
+	padding: 5px;
+}
+.midNav ul li{
+	padding-right: 50px;
+}
+.midNav ul li a:hover {
+	border-color: white;
+	background-color: 
+}
+.midThumbs {
+	margin-top: 100px;
+	text-align: center;
+}
+.midThumbs a{
+	padding-right: 50px;
+}
+.Button button:hover {
+	background-color: #99D2A5;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+	border-left: 2px solid white;
+	color: white;	
+}
+.Button{
+	margin-top: 50px;
+	text-align: center;
+}
+.Button button{
+	font-family: 'Montserrat', sans-serif;
+	width: 10%;
+	background-color: white;
+	border-radius: 10px;
+	height: 40px;
+	border: none;
+}
+/*Third Break Section of Page*/
+.middle3 {
+	background-color: #F0F0F0;
+	height: 500px;
+	text-align: center;
+}
+.template {
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 200px;
+}
+.content {
+	position: relative;
+	bottom: 150px;
+}
+.bottomContent {
+	padding-right: 150px
+
+}
+.secondTemplate {
+	text-align: right;
+	position: relative;
+	bottom: 150px;
+	right: 250px;
+}
+.content button{
+	font-family: 'Montserrat', sans-serif;
+	width: 10%;
+	background-color: #99D2A5;
+	border-radius: 10px;
+	height: 40px;
+	border: none;
+	color: white;
+}
+.bottomContent button{
+	font-family: 'Montserrat', sans-serif;
+	width: 10%;
+	background-color: #A3CFD8;
+	border-radius: 10px;
+	height: 40px;
+	border: none;
+	color: white;
+}
+/*Fourth Section of Page*/
+.middle4 {
+	background-color: #DFB6C6;
+	height: 550px;	
+}
+.middle4 .team {
+	text-align: center;
+	color: white;
+	padding-top: 25px;
+}
+.people {
+	text-align: center;
+	padding-top: 50px;
+}
+.member1 {
+	display: inline-block;
+	background-color: #E9E9E9;
+	width: 20%;
+}
+.member2 {
+	display: inline-block;
+	background-color: #E9E9E9;
+	width: 20%;
+}
+.member3 {
+	display: inline-block;
+	background-color: #E9E9E9;
+	width: 20%;
+}
+/*Fifth Section of the Page*/
+.middle5 {
+	background-color: #B5D5E0;
+	height: 600px;
+}
+.work {
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.posts {
+	text-align: center;
+}
+.post1 {
+	display: inline-block;
+	background-color: #E9E9E9;
+	width: 20%;
+}
+.post2 {
+	display: inline-block;
+	background-color: #E9E9E9;
+	width: 20%;
+}
+.post3 {
+	display: inline-block;
+	background-color: #E9E9E9;
+	width: 20%;
+}
+.middle3button button{
+	font-family: 'Montserrat', sans-serif;
+	width: 10%;
+	background-color: white;
+	border-radius: 10px;
+	height: 40px;
+	border: none;
+	color: #A3CFD8;
+}
+.middle3button {
+	padding-top: 50px;
+}
+/*last part of page-contact section*/
+.bottom {
+	background-color: #3C3C3C;
+	height: 550px;
+}
+.contact {
+	padding-top: 50px;
+	color: white;
+	text-align: center;
+}
+.contact h2{
+	font-size: 30px;
+}
+.contactform {
+	text-align: center;
+	padding-top: 30px;
+}
+.contactform input {
+	width: 20%;
+	height: 30px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 10px; 
+	margin-left: 10px;
+}
+.contactform textarea {
+	width: 20%;
+	height: 80px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 10px; 
+	margin-left: 10px;
+}
+.contactform button {
+	font-family: 'Montserrat', sans-serif;
+	width: 10%;
+	background-color: white;
+	border-radius: 10px;
+	height: 40px;
+	border: none;
+	color: #3C3C3C;
+}
